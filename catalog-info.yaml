@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PipelineMiner
+  description: PipelineMiner Project that containst Dockerfiles etc
+  annotations:
+    backstage.io/techdocs-ref: dir:./README.md
+spec:
+  type: service
+  lifecycle: development
+  owner: iamlennym
+  system: Pipeline Miner
+  relations:
+    - type: parentOf
+      target: component:PipelineMiner-FrontEnd
