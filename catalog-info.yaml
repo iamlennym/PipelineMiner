@@ -11,5 +11,7 @@ spec:
   owner: iamlennym
   system: Pipeline Miner
   relations:
-    - type: parentOf
+    - type: dependsOn
       target: component:PipelineMiner-FrontEnd
+    - type: dependsOn
+      target: component:PipelineMiner-BackEnd
