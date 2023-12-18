@@ -13,4 +13,4 @@ metadata:
     backstage.io/techdocs-ref: dir:./README.md
 spec:
   owner: developers
-  domain: default
+  domain: xcalico
