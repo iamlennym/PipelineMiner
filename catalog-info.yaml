@@ -3,15 +3,14 @@ kind: System
 metadata:
   name: PipelineMiner
   description: PipelineMiner Project that containst Dockerfiles etc
+  links:
+    - url: https://www.google.com
+      title:  Example URL
+      icon: dashboard
+      type: Example URL
+  tags: []  
   annotations:
     backstage.io/techdocs-ref: dir:./README.md
 spec:
-  type: service
-  lifecycle: development
-  owner: iamlennym
-  system: Pipeline Miner
-  relations:
-    - type: dependsOn
-      target: component:PipelineMiner-FrontEnd
-    - type: dependsOn
-      target: component:PipelineMiner-BackEnd
+  owner: Unknown
+  domain: default
