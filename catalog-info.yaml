@@ -12,5 +12,5 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:./README.md
 spec:
-  owner: Unknown
-  domain: default
+  owner: developers
+  domain: XCalicoCrewProjects
