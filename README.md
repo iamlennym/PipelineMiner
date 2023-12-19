@@ -1,5 +1,8 @@
 # Pipeline Miner
-(Contains the Dockerfile etc to build the docker image for the Pipeline Miner)
+## NOTE:
+- This repo only contains the Dockerfile etc to build the docker image for the Pipeline Miner
+- It references 2 seperate private repositories (plminer and plminer-be)
+- Access to these repos can be requested (iamlennym@gmail.com)
 
 ## Description
 Pipeline Miner is a powerful tool designed for searching through Harness pipelines using keywords. It serves as the 'grep' for Harness pipelines, allowing users to efficiently locate and reference pipelines within an account.
