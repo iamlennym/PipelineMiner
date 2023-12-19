@@ -1,8 +1,6 @@
 # Pipeline Miner
-## NOTE:
-- This repo only contains the Dockerfile etc to build the docker image for the Pipeline Miner
-- It references 2 seperate private repositories (plminer and plminer-be)
-- Access to these repos can be requested (iamlennym@gmail.com)
+
+<img src="images/Overview.png" style="width: 100%;" alt="Alt text">
 
 ## Description
 Pipeline Miner is a powerful tool designed for searching through Harness pipelines using keywords. It serves as the 'grep' for Harness pipelines, allowing users to efficiently locate and reference pipelines within an account.
@@ -29,5 +27,17 @@ The primary function of this Docker image is to facilitate the search and identi
 3. Follow the on-screen instructions to input your Harness account ID and the service account token. Once you click submit, PipelineMiner will contact the Harness manager and retrieve pipeline information to be cached.
 4. Once done you will be able to perform keyword searches across pipelines within the account.
 
+In this example we searched for the word *grype* and was presented with a couple of matches:
+<img src="images/SearchforGrype.png" style="width: 100%;" alt="Alt text">
+
+By clicking on the pipeline name, we can easily access the pipeline within Harness:
+<img src="images/grypefound.png" style="width: 100%;" alt="Alt text">
+
 ## Contact Information
 For support, feedback, or any queries, feel free to contact Leendert Meyer at iamlennym@gmail.com.
+
+## NOTE:
+- This repo only contains the Dockerfile etc to build the docker image for the Pipeline Miner
+- It references 2 seperate private repositories (plminer and plminer-be)
+- Access to these repos can be requested (iamlennym@gmail.com)
+
