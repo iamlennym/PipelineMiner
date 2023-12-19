@@ -21,7 +21,7 @@ WORKDIR /build/plminer-be
 
 # Clone the GitHub repo using the PAT
 ARG GITHUB_TOKEN
-RUN git clone https://iamlennym:${GITHUB_TOKEN}@github.com/iamlennym/plminer-be.git .
+RUN git clone https://iamlennym:${GITHUB_TOKEN}@github.com/iamlennym/plminer-be.git . && rm -rf /build/plminer-be/.git
 
 # Install dependencies
 RUN npm install
