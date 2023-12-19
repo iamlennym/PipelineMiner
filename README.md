@@ -41,3 +41,5 @@ For support, feedback, or any queries, feel free to contact Leendert Meyer at ia
 - It references 2 seperate private repositories (plminer and plminer-be)
 - Access to these repos can be requested (iamlennym@gmail.com)
 
+The following illustrates the dependencies:
+<img src="images/SystemOverview.png" style="width: 100%;" alt="Alt text">
