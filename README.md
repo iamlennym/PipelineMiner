@@ -21,9 +21,9 @@ The primary function of this Docker image is to facilitate the search and identi
 ## Usage Instructions
 1. Run the following docker command from the command line:
 ```
-    docker run -p 13377:1337 iamlennym/pipelineminer:latest
+    docker run -p 1337:1337 iamlennym/pipelineminer:latest
 ```
-2. Connect to http://localhost:13377 with your browser.
+2. Connect to http://localhost:1337 with your browser.
 3. Follow the on-screen instructions to input your Harness account ID and the service account token. Once you click submit, PipelineMiner will contact the Harness manager and retrieve pipeline information to be cached.
 4. Once done you will be able to perform keyword searches across pipelines within the account.
 
