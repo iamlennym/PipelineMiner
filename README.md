@@ -3,7 +3,7 @@
 <img src="images/Overview.png" style="width: 100%;" alt="Alt text">
 
 ## Description
-Pipeline Miner is a powerful tool designed for searching through Harness pipelines using keywords. It serves as the 'grep' for Harness pipelines, allowing users to efficiently locate and reference pipelines within an account.
+Pipeline Miner is a powerful tool designed for searching through Harness pipelines using keywords. It serves as the 'grep' for Harness pipelines, allowing users to efficiently locate and reference pipelines within an account. It made my onboarding with Harness that much 'smoother', and I am actually using it regularly on a day-to-day basis to help me discover the wonder things my colleagues are doing with Harness. ;)
 
 ## Purpose
 The primary function of this Docker image is to facilitate the search and identification of specific build steps or components within Harness pipelines. For instance, users can quickly find a pipeline utilizing tools like 'Sonarqube', which is particularly useful for referencing and replicating configurations.
