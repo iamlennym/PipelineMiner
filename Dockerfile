@@ -1,7 +1,7 @@
 # Use the node:current-alpine image as the base
-FROM node:current-alpine as builder
+FROM node:18.12.1-alpine as builder
 
-RUN apk update && apk add ca-certificates openssl git python3 sqlite sqlite python3 make gcc libgcc libc-dev g++
+RUN apk update && apk add ca-certificates openssl git python3 sqlite python3 make gcc libgcc libc-dev g++
 
 # Set the build directory in the container
 WORKDIR /build/plminer
@@ -30,7 +30,7 @@ RUN npm install
 RUN cp -r /build/plminer/dist /build/plminer-be/assets
 
 # Create a small image containing only the application
-FROM node:current-alpine
+FROM node:18.12.1-alpine
 COPY --from=builder /build/plminer-be /app
 WORKDIR /app
 
